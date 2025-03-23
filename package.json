@@ -1,8 +1,8 @@
 {
   "scripts": {
      "build": "mkdir -p public && cp ./index.html public/",
-    "api": "json-server --watch db.json --port $PORT --no-static",
-    "start": "json-server --watch db.json --port $PORT --no-static"
+    "api": "json-server --watch db.json --port $PORT ",
+    "start": "json-server --watch db.json --port $PORT"
   },
   "dependencies": {
     "json-server": "^1.0.0-beta.3"
